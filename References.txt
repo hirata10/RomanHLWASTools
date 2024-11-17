@@ -1,0 +1,3 @@
+The dust map used is a reprojection of the SFD map:
+Schlegel, Finkbeiner, Davis, Astrophys. J. 500:525 (1998)
+
