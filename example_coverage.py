@@ -24,8 +24,8 @@ for i in range(3):
         print('{:2d} {:7.5f}'.format(j, numpy.count_nonzero(map>=j)/numpy.size(map)))
     F = fits.PrimaryHDU(map, header=w.to_header())
     F.writeto('imageG-{:4.2f}um.fits'.format(wlt[i]), overwrite=True)
-b = ['K', 'F', 'H', 'J', 'Y', 'Z']
-filt = [10, 1, 2, 3, 4, 5]
+b = ['K', 'F', 'H', 'J', 'Y', 'Z', 'W']
+filt = [10, 1, 2, 3, 4, 5, 0]
 for i in range(6):
     map = coverage_multiexp(infile, ra, dec, filt[i], verbose=True, use_t=False)
     for j in range(20):
