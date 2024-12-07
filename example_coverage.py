@@ -15,7 +15,7 @@ ra, dec = coordmap(w,[0,N],[0,N])
 deg = numpy.pi/180.
 ra *= deg; dec *= deg
 
-infile = 'tilingdata/hlwas_tiling_241117.txt.gz'
+infile = 'tilingdata/hlwas_tiling_241206.txt.gz'
 
 wlt = [1.1,1.5,1.9]
 for i in range(3):
